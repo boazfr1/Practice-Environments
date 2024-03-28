@@ -9,6 +9,7 @@ env:
 jobs:
   install-build-test:
     runs-on: ubuntu-latest
+    environment: Production
 
     steps:
     - name: Check out repository

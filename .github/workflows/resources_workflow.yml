@@ -8,6 +8,7 @@ on:
 jobs: # Jobs defined in the workflow
   create-stack:
     runs-on: ubuntu-latest
+    environment: Production
     steps:
     - name: Checkout
       uses: actions/checkout@v3
